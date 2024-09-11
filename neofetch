@@ -1,0 +1,41 @@
+ sw4y@m0th3r5h1p  ~  .config          
+ sw4y@m0th3r5h1p  ~/.config  ls
+ autostart                  discord                    goa-1.0       mimeapps.list     pulse         user-dirs.dirs
+ balenaEtcher               Electron                   gtk-3.0       monitors.xml      qutebrowser   user-dirs.locale
+ BetterDiscord              evolution                  gtk-4.0       mpv               ranger        vlc
+'BetterDiscord Installer'   fish                       htop          nautilus          rofi          weechat
+ btop                       gh                         i3            neofetch          spicetify     xdg-terminals.list
+ cava                       gnome-initial-setup-done   ibus          onionshare        spotify       xfce4
+ Code                       gnome-session              kitty         pavucontrol.ini   Surfshark     zathura
+ dconf                      GNOME-xdg-terminals.list   libreoffice   polybar           Thunar
+ sw4y@m0th3r5h1p  ~/.config  cd i3  
+ sw4y@m0th3r5h1p  ~/.config/i3  ls
+config
+ sw4y@m0th3r5h1p  ~/.config/i3  sudo vim config
+  GNU nano 7.2                                                                                      config.conf                                                                                                
+# Only works with the w3m backend.
+#
+# Default: '0'
+# Values:  'px'
+# Flags:   --xoffset
+#          --yoffset
+yoffset=0
+xoffset=0
+
+# Image background color
+# Only works with the w3m backend.
+#
+# Default: ''
+# Values:  'color', 'blue'
+# Flag:    --bg_color
+background_color=
+
+
+# Misc Options
+
+# Stdout mode
+# Turn off all colors and disables image backend (ASCII/Image).
+# Useful for piping into another command.
+# Default: 'off'
+# Values: 'on', 'off'
+stdout="off"
