@@ -1,0 +1,27 @@
+;====My Polybar Settings===================================
+
+
+
+
+;====General Settings======================================
+[colors]
+bg = #222D32
+fg = #CFD8DC
+adapta-cyan = #00BCD4
+adapta-red = #FF5252
+adapta-yellow = #C9BC0E
+adapta-lightgreen = #4DB6AC
+adapta-green = #009688
+adapta-grey = #475359
+
+[margin]
+for-modules = 1
+
+[bar/main]
+width = 100%
+height = 22
+fixed-center = true
+line-size = 2
+background = ${colors.bg}
+foreground = ${colors.fg}
+font-0 = "Fantasque Sans Mono:pixelsize=10;2"
